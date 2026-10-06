@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -11,11 +12,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Элементы Лабораторной №2
         val textViewResult = findViewById<TextView>(R.id.textViewResult)
         val editTextName = findViewById<EditText>(R.id.editTextName)
         val buttonSend = findViewById<Button>(R.id.buttonSend)
 
-        // Изначально скрываем/очищаем поле вывода
         textViewResult.text = ""
 
         buttonSend.setOnClickListener {
@@ -25,6 +26,16 @@ class MainActivity : AppCompatActivity() {
             } else {
                 textViewResult.text = ""
             }
+        }
+
+        // Элементы Лабораторной №3
+        val input1 = findViewById<EditText>(R.id.input1)
+        val buttonNext = findViewById<Button>(R.id.next)
+
+        buttonNext.setOnClickListener {
+            val intent = Intent(this, MainActivity2::class.java)
+            intent.putExtra("text", input1.text.toString())
+            startActivity(intent)
         }
     }
 }
