@@ -70,4 +70,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="№ 6" />
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="№ 7" />
 </LinearLayout>
