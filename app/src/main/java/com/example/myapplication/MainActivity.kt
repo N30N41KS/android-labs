@@ -36,18 +36,27 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity2::class.java)
             intent.putExtra("text", input1.text.toString())
             startActivity(intent)
+        }
 
-            val buttonLab4 = findViewById<Button>(R.id.btn4)
-            buttonLab4.setOnClickListener {
-                val intent = Intent(this, Lab4Activity::class.java)
-                startActivity(intent)
+        // Лабораторная №4
+        val buttonLab4 = findViewById<Button>(R.id.btn4)
+        buttonLab4.setOnClickListener {
+            val intent = Intent(this, Lab4Activity::class.java)
+            startActivity(intent)
+        }
 
-                val buttonLab5 = findViewById<Button>(R.id.btn5)
-                buttonLab5.setOnClickListener {
-                    val intent = Intent(this, Lab5Activity::class.java)
-                    startActivity(intent)
-                }
-            }
+        // Лабораторная №5
+        val buttonLab5 = findViewById<Button>(R.id.btn5)
+        buttonLab5.setOnClickListener {
+            val intent = Intent(this, Lab5Activity::class.java)
+            startActivity(intent)
+        }
+
+        // Лабораторная №6
+        val buttonLab6 = findViewById<Button>(R.id.btn6)
+        buttonLab6.setOnClickListener {
+            val intent = Intent(this, Lab6Activity::class.java)
+            startActivity(intent)
         }
     }
 }
