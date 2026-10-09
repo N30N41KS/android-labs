@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#C2185B</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.MyLab4" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#00897B</item>
+        <item name="android:windowBackground">#FFF8E1</item>
+        <item name="android:textColorPrimary">#3E2723</item>
+    </style>
+</resources>
