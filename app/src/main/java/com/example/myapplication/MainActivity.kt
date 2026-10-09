@@ -36,10 +36,17 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity2::class.java)
             intent.putExtra("text", input1.text.toString())
             startActivity(intent)
+
             val buttonLab4 = findViewById<Button>(R.id.btn4)
             buttonLab4.setOnClickListener {
                 val intent = Intent(this, Lab4Activity::class.java)
                 startActivity(intent)
+
+                val buttonLab5 = findViewById<Button>(R.id.btn5)
+                buttonLab5.setOnClickListener {
+                    val intent = Intent(this, Lab5Activity::class.java)
+                    startActivity(intent)
+                }
             }
         }
     }
