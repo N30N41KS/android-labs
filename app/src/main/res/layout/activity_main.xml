@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="64dp">
 
     <!-- Лабораторная №1 -->
     <TextView
         android:id="@+id/fio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
         android:text="@string/fio" />
 
     <!-- Лабораторная №2 -->
@@ -27,17 +28,18 @@
         android:layout_height="wrap_content"
         android:text="Показать" />
 
+    <!-- Лабораторная №3 -->
+
     <TextView
         android:id="@+id/textViewResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp" />
 
-    <!-- Лабораторная №3 -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:text="Activity 1"
         android:textSize="24sp" />
 
@@ -52,6 +54,6 @@
         android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2" />
+        android:text="Страница 2" />
 
 </LinearLayout>
