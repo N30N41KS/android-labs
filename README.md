@@ -1,4 +1,4 @@
-# Лабораторные работы по Android (1–7)
+# Лабораторные работы по Android (1–8)
 
 Проект со сквозной навигацией с главного экрана (`MainActivity`).
 
@@ -13,6 +13,7 @@
 | **№5. Списки** | `Lab5Activity.kt`, `MyAdapter.kt` | `activity_lab5.xml`, `item.xml` | ✅ Готово |
 | **№6. Анимация** | `Lab6Activity.kt` | `activity_lab6.xml`, `rotate.xml`, `scale.xml` | ✅ Готово |
 | **№7. Карты** | `Lab7Activity.kt` | `activity_lab7.xml` | ✅ Готово |
+| **№8. Виджеты** | `MyWidget.kt`, `MyWidgetConfigureActivity.kt` | `my_widget.xml`, `my_widget_configure.xml`, `my_widget_info.xml` | ✅ Готово |
 
 ## Доступ к срезам работ
 Сданные работы зафиксированы в разделе **[Releases](../../releases)** тегами:
@@ -23,3 +24,4 @@
 - `lab5` — Списки (RecyclerView и адаптер)
 - `lab6` — Анимация (вращение и масштаб)
 - `lab7` — Интеграция карт (OpenStreetMap через WebView)
+- `lab8` — Создание виджета с экраном настройки

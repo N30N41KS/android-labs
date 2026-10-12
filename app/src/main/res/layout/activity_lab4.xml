@@ -39,9 +39,10 @@
         android:text="Текст со своим стилем" />
 
     <Button
+        android:id="@+id/backBtn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Кнопка в теме" />
+        android:text="Назад" />
 
 </LinearLayout>

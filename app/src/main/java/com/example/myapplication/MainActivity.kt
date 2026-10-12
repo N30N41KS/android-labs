@@ -57,12 +57,13 @@ class MainActivity : AppCompatActivity() {
         buttonLab6.setOnClickListener {
             val intent = Intent(this, Lab6Activity::class.java)
             startActivity(intent)
+        }
 
+        // Лабораторная №7
         val buttonLab7 = findViewById<Button>(R.id.btn7)
         buttonLab7.setOnClickListener {
             val intent = Intent(this, Lab7Activity::class.java)
             startActivity(intent)
-            }
         }
     }
 }
