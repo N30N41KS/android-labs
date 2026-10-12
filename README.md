@@ -18,7 +18,7 @@
 | **№10. Диалоговые окна** | `Lab10Activity.kt` | `activity_lab10.xml` | ✅ Готово |
 | **№11. Уведомления** | `Lab11Activity.kt` | `activity_lab11.xml` | ✅ Готово |
 | **№12. Аудио** | `Lab12Activity.kt` | `activity_lab12.xml`, `sound.wav` | ✅ Готово |
-| **№13. Видео** | `Lab13Activity.kt` | `activity_lab13.xml`, `video.mp4` | ⏳ В разработке |
+| **№13. Видео** | `Lab13Activity.kt` | `activity_lab13.xml`, `video.mp4` | ✅ Готово |
 
 ## Доступ к срезам работ
 Сданные работы зафиксированы в разделе **[Releases](../../releases)** тегами:
@@ -34,4 +34,4 @@
 - `lab10` — Работа с диалоговыми окнами (AlertDialog)
 - `lab11` — Работа с уведомлениями (NotificationChannel и NotificationCompat)
 - `lab12` — Работа с аудио (воспроизведение через MediaPlayer)
-- `lab13` — Работа с видео (воспроизведение через VideoView)
+- `lab13` — Работа с видео (воспроизведение через VideoView с элементами управления)
