@@ -17,7 +17,7 @@
 | **№9. Меню** | `Lab9Activity.kt` | `activity_lab9.xml`, `main_menu.xml`, `context_menu.xml` | ✅ Готово |
 | **№10. Диалоговые окна** | `Lab10Activity.kt` | `activity_lab10.xml` | ✅ Готово |
 | **№11. Уведомления** | `Lab11Activity.kt` | `activity_lab11.xml` | ✅ Готово |
-| **№12. Аудио** | `Lab12Activity.kt` | `activity_lab12.xml`, `sound` | ⏳ В разработке |
+| **№12. Аудио** | `Lab12Activity.kt` | `activity_lab12.xml`, `sound.wav` | ✅ Готово |
 | **№13. Видео** | `Lab13Activity.kt` | `activity_lab13.xml`, `video.mp4` | ⏳ В разработке |
 
 ## Доступ к срезам работ
