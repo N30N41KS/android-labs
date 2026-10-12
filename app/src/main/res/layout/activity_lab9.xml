@@ -4,23 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="16dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Лабораторная работа №9: Меню"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/fio"
-        android:textSize="14sp" />
+        android:text="@string/fio" />
 
     <EditText
         android:id="@+id/input"
@@ -33,16 +22,16 @@
         android:id="@+id/hidden"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Скрытый текст (зажмите для контекстного меню)"
+        android:layout_marginTop="16dp"
+        android:text="Нажмите и удерживайте (контекстное меню)"
         android:textSize="18sp"
-        android:visibility="gone" />
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/backBtn9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:text="Назад" />
 
 </LinearLayout>

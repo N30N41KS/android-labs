@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/action_show_text"
+        android:id="@+id/menu_show"
         android:checkable="true"
-        android:title="Показать текст"
-        app:showAsAction="never" />
+        android:title="Показать текст" />
     <item
-        android:id="@+id/action_clear"
-        android:title="Очистить поле"
-        app:showAsAction="never" />
+        android:id="@+id/menu_clear"
+        android:title="Очистить поле" />
 </menu>

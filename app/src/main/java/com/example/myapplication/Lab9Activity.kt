@@ -13,21 +13,14 @@ import androidx.appcompat.app.AppCompatActivity
 
 class Lab9Activity : AppCompatActivity() {
 
-    private lateinit var input: EditText
-    private lateinit var hidden: TextView
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lab9)
 
-        input = findViewById(R.id.input)
-        hidden = findViewById(R.id.hidden)
+        registerForContextMenu(findViewById(R.id.hidden))
+
         val backBtn = findViewById<Button>(R.id.backBtn9)
-
-        // Регистрация контекстного меню для надписи hidden
-        registerForContextMenu(hidden)
-
-        backBtn.setOnClickListener {
+        backBtn?.setOnClickListener {
             finish()
         }
     }
@@ -38,22 +31,16 @@ class Lab9Activity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_show_text -> {
-                item.isChecked = !item.isChecked
-                if (item.isChecked) {
-                    hidden.visibility = View.VISIBLE
-                } else {
-                    hidden.visibility = View.GONE
-                }
-                true
-            }
-            R.id.action_clear -> {
-                input.text.clear()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
+        if (item.itemId == R.id.menu_show) {
+            item.isChecked = !item.isChecked
+            findViewById<View>(R.id.hidden).visibility =
+                if (item.isChecked) View.VISIBLE else View.INVISIBLE
+            return true
+        } else if (item.itemId == R.id.menu_clear) {
+            findViewById<EditText>(R.id.input).setText("")
+            return true
         }
+        return super.onOptionsItemSelected(item)
     }
 
     override fun onCreateContextMenu(
@@ -66,16 +53,14 @@ class Lab9Activity : AppCompatActivity() {
     }
 
     override fun onContextItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_red -> {
-                hidden.setTextColor(Color.RED)
-                true
-            }
-            R.id.action_black -> {
-                hidden.setTextColor(Color.BLACK)
-                true
-            }
-            else -> super.onContextItemSelected(item)
+        val t = findViewById<TextView>(R.id.hidden)
+        if (item.itemId == R.id.ctx_red) {
+            t.setTextColor(Color.RED)
+            return true
+        } else if (item.itemId == R.id.ctx_black) {
+            t.setTextColor(Color.BLACK)
+            return true
         }
+        return super.onContextItemSelected(item)
     }
 }
