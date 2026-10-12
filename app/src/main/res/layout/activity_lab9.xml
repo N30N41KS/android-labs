@@ -4,17 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="24dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/fio" />
+        android:text="@string/fio"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:hint="Введите текст"
         android:inputType="text" />
 
@@ -22,7 +24,7 @@
         android:id="@+id/hidden"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:text="Нажмите и удерживайте (контекстное меню)"
         android:textSize="18sp"
         android:visibility="invisible" />
@@ -31,7 +33,7 @@
         android:id="@+id/backBtn9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:text="Назад" />
 
 </LinearLayout>
