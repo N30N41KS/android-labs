@@ -39,6 +39,10 @@
         <activity
             android:name=".Lab7Activity"
             android:exported="false" />
+        <activity
+            android:name=".Lab9Activity"
+            android:exported="false"
+            android:theme="@style/Theme.MyLab9" />
 
         <!-- Виджет для Лабораторной работы №8 -->
         <receiver
