@@ -100,5 +100,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Lab13Activity::class.java)
             startActivity(intent)
         }
+
+        // Лабораторная №14
+        val buttonLab14 = findViewById<Button>(R.id.btn14)
+        buttonLab14.setOnClickListener {
+            val intent = Intent(this, Lab14Activity::class.java)
+            startActivity(intent)
+        }
     }
 }

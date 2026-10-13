@@ -1,4 +1,4 @@
-# Лабораторные работы по Android (1–13)
+# Лабораторные работы по Android (1–15)
 
 Проект со сквозной навигацией с главного экрана (`MainActivity`).
 
@@ -19,6 +19,8 @@
 | **№11. Уведомления** | `Lab11Activity.kt` | `activity_lab11.xml` | ✅ Готово |
 | **№12. Аудио** | `Lab12Activity.kt` | `activity_lab12.xml`, `sound.wav` | ✅ Готово |
 | **№13. Видео** | `Lab13Activity.kt` | `activity_lab13.xml`, `video.mp4` | ✅ Готово |
+| **№14. Камера** | `Lab14Activity.kt` | `activity_lab14.xml` | ✅ Готово |
+| **№15. [В разработке]** | `Lab15Activity.kt` | `activity_lab15.xml` | ⏳ В разработке |
 
 ## Доступ к срезам работ
 Сданные работы зафиксированы в разделе **[Releases](../../releases)** тегами:
@@ -35,3 +37,4 @@
 - `lab11` — Работа с уведомлениями (NotificationChannel и NotificationCompat)
 - `lab12` — Работа с аудио (воспроизведение через MediaPlayer)
 - `lab13` — Работа с видео (воспроизведение через VideoView с элементами управления)
+- `lab14` — Работа с камерой (получение превью снимка через ActivityResultContracts.TakePicturePreview)
