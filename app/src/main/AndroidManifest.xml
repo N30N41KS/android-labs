@@ -60,6 +60,9 @@
         <activity
             android:name=".Lab14Activity"
             android:exported="false" />
+        <activity
+            android:name=".Lab15Activity"
+            android:exported="false" />
 
         <!-- Виджет для Лабораторной работы №8 -->
         <receiver

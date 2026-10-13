@@ -20,7 +20,7 @@
 | **№12. Аудио** | `Lab12Activity.kt` | `activity_lab12.xml`, `sound.wav` | ✅ Готово |
 | **№13. Видео** | `Lab13Activity.kt` | `activity_lab13.xml`, `video.mp4` | ✅ Готово |
 | **№14. Камера** | `Lab14Activity.kt` | `activity_lab14.xml` | ✅ Готово |
-| **№15. [В разработке]** | `Lab15Activity.kt` | `activity_lab15.xml` | ⏳ В разработке |
+| **№15. Настройки и БД** | `Lab15Activity.kt`, `DbHelper.kt` | `activity_lab15.xml` | ✅ Готово |
 
 ## Доступ к срезам работ
 Сданные работы зафиксированы в разделе **[Releases](../../releases)** тегами:
@@ -38,3 +38,4 @@
 - `lab12` — Работа с аудио (воспроизведение через MediaPlayer)
 - `lab13` — Работа с видео (воспроизведение через VideoView с элементами управления)
 - `lab14` — Работа с камерой (получение превью снимка через ActivityResultContracts.TakePicturePreview)
+- `lab15` — Работа с настройками (SharedPreferences) и базой данных SQLite (DbHelper)
